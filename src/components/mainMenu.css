@@ -77,9 +77,23 @@ button {
 }
 .dropdown.dropdown1 {
 left: 65%; 
-font-size: 6vw}
+font-size: 6vw;
+}
 button.viewscore {
   width: 50vw; /* Adjust button width for mobile */
+}
+.dropdown:hover .dropdown-content 
+{
+  display:none
+}
+.dropdown:active {
+  border-color: #02031d;
+    background-color: rgb(216, 132, 99);;
+    color: black
+}
+.dropdown:active .dropdown-content {
+  display: block;
+  font-weight: 1000;
 }
 .answer.key {
   font-size: 6vw; /* Adjust the size for mobile */
