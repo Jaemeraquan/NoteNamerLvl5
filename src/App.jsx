@@ -451,36 +451,36 @@ document.documentElement.style.setProperty('--viewport-initial-scale', '1');
         />
       ) : showFretboardQuiz ? (
         <FretBoardQuiz
-          questions={questions}
-          currentQuestion={currentQuestion}
-          handleViewScoreHover={handleViewScoreHover}
-          handleViewScoreLeave={handleViewScoreLeave}
-          viewScoreText={viewScoreText}
-          setViewScoreText={viewScoreText}
-          setCurrentQuestion={setCurrentQuestion}
-          selectedAnswer={selectedAnswer}
-          setSelectedAnswer={setSelectedAnswer}
-          showScore={showScore}
-          setShowScore={setShowScore}
-          response={response}
-          setResponse={setResponse}
-          play={play}
-          IsAccidentalAnswered={setIsAccidentalAnswered}
-          isAnswered={isAnswered}
-          setIsAnswered={setIsAnswered}
-          setIsAccidentalAnswered={setIsAccidentalAnswered}
-          score={score}
-          setScore={setScore}
-          questionCount={questionCount}
-          setQuestionCount={setQuestionCount}
-          percentageScore={percentageScore}
-          setPercentageScore={setPercentageScore}
-          getNextQuestion={getNextQuestion}
-          handleAnswerOptionClick={handleAnswerOptionClick}
-          handleNoteAnswerOptionClick={handleNoteAnswerOptionClick}
-          restartQuiz={restartQuiz}
-          startStaffQuiz={startStaffQuiz}
-          startFretboardQuiz={startFretboardQuiz}
+        questions={questions}
+        currentQuestion={currentQuestion}
+        setCurrentQuestion={setCurrentQuestion}
+        showScore={showScore}
+        setShowScore={setShowScore}
+        viewScoreText={viewScoreText}
+        setViewScoreText={viewScoreText}
+        handleViewScoreHover={handleViewScoreHover}
+        handleViewScoreLeave={handleViewScoreLeave}
+        response={response}
+        setResponse={setResponse}
+        play={play}
+        isAnswered={isAnswered}
+        isAccidentalAnswered={isAccidentalAnswered}
+        setIsAnswered={setIsAnswered}
+        setIsAccidentalAnswered={setIsAccidentalAnswered}
+        score={score}
+        setScore={setScore}
+        questionCount={questionCount}
+        setQuestionCount={setQuestionCount}
+        percentageScore={percentageScore}
+        setPercentageScore={setPercentageScore}
+        getNextQuestion={getNextQuestion}
+        handleAnswerOptionClick={handleAnswerOptionClick}
+        handleNoteAnswerOptionClick={handleNoteAnswerOptionClick}
+        selectedAnswer={selectedAnswer}
+        setSelectedAnswer={setSelectedAnswer}
+        restartQuiz={restartQuiz}
+        startStaffQuiz={startStaffQuiz}
+        startFretboardQuiz={startFretboardQuiz}
         />
         ) : null}
     </div>

@@ -11,7 +11,7 @@
     "homepage": "https://jaemeraquan.github.io/NoteNamerLvl5/",
 
 "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "main -d dist"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
